@@ -1,0 +1,5 @@
+#### Show Saved Wifi passwords
+  C:\Users\username
+  netsh wlan show profile
+  netsh wlan show profile name="network_name" key=clear | findstr Key
+
