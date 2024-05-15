@@ -1,0 +1,25 @@
+3 stany plików w git:
+  1. modified
+  2. staged
+  3. committed
+
+git init
+nano .gitignore #katalogi zwiazane ze srodowiskiem
+git status
+git add . #dodaje wszystko
+git add files/filename
+
+git status # nadużywanie tego - dobra praktyka
+git commit -m "Added file" / git commit
+
+git clean -nd - tryb testowy pokazujący, które pliki i katalogi będą usunięte, które nigdy wcześniej nie zostały dodane do repozytorium
+git clean -idf - tryb usuwania wybranych plików, katalogów, których nie ma w przechowywalni
+
+git reset - usuwa pliki z przechowywalni
+
+git checkout -- file.py - przywraca stan pliku z repozytorium do lokalnego folderu
+
+git rm index.html - usuwa plik z przechowywalni
+
+git reset (przenosi pliki ze stage do working directory - odwrotnosc add)
+git checkout index.html -->> przywraca usunięty plik
